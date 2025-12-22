@@ -54,7 +54,7 @@ Make sure you have:
 
 ---
 
-## 🔧 Installation
+## Installation
 
 Clone the repository:
 
