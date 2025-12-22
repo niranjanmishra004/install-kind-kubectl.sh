@@ -7,7 +7,7 @@ No magic. No conflicts. Just the essentials.
 
 ---
 
-## 🚀 What This Script Does
+## What This Script Does
 
 This script installs:
 
@@ -18,7 +18,7 @@ Both tools are installed system-wide under `/usr/local/bin`.
 
 ---
 
-## 🧱 Why This Exists
+## Why This Exists
 
 Setting up Kubernetes tools manually is repetitive and error-prone.  
 This script provides a **one-command setup** that:
@@ -34,7 +34,7 @@ Ideal for:
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Make sure you have:
 
@@ -45,7 +45,7 @@ Make sure you have:
 
 ---
 
-## 📦 Tools Installed
+## Tools Installed
 
 | Tool    | Purpose                              |
 |--------|--------------------------------------|
@@ -59,5 +59,19 @@ Make sure you have:
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+https://github.com/Aditya-das-4707-e/install-kind-kubectl.sh.git
+cd install-kind-kubectl.sh
+```
+Make the script executable:
+```bash
+chmod +x install-kind-kubectl.sh
+```
+Run the script:
+```bash
+./install-kind-kubectl.sh
+```
+After installation, verify both tools:
+```bash
+kind version
+kubectl version --client
+```
